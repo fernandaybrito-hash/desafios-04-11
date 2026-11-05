@@ -3,13 +3,32 @@
     color: white;
 }
 
+
 .blueTheme{
     background-color: blue;
     color: white;
     font-weight: bold;
 }
 
+
 .word{
     background-color: aquamarine;
     color: white;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Quando passar o mouse por cima */
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
 }
